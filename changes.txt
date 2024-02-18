@@ -1,0 +1,4 @@
+Changes:
+1 - Changed from php and python combo which will spawn a new process for every user to an asynchronous promise driven express app
+2 - Changed from using two different ports to a single port one
+3 - Now it can be shipped as a container, which will eliminate every sort of misconfiguration, hopefully
